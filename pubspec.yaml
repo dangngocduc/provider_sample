@@ -28,16 +28,25 @@ dependencies:
   analyzer: 0.39.14
   state_notifier: ^0.6.0
   flutter_state_notifier: ^0.6.1
+  freezed: ^0.11.6
+  freezed_annotation:
   wave: ^0.1.0
   flutter_counter:
     path: ./flutter_counter
   flutter_timer:
     path: ./flutter_timer
+  flutter_login:
+    path: ./flutter_login
+  authentication_repository:
+    path: ./flutter_login/packages/authentication_repository
+  user_repository:
+    path: ./flutter_login/packages/user_repository
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
+  build_runner:
+  freezed:
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
